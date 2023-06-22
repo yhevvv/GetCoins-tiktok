@@ -55,6 +55,7 @@ for (let i = 1; i < 9; i++) {
         document.getElementById("coins").innerHTML = coin + " Coins";
         document.getElementById("totalMoney1").innerHTML = money;
         document.getElementById("totalMoney2").innerHTML = money;
+        document.getElementById("taltol_payment").innerHTML = money;
 
     })
 
