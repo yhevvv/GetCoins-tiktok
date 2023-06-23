@@ -39,6 +39,7 @@ for (let i = 1; i < 9; i++) {
                 document.getElementById("total-money").innerHTML = "$" + result.toFixed(2);
                 document.getElementById("money").innerHTML = "$" + result.toFixed(2);
                 document.getElementById("text-coin-result").innerHTML = inputValue;
+                document.getElementById("taltol_payment").innerHTML = "$" + result.toFixed(2);
                 if (inputValue == "") {
                     document.getElementById("total-money").innerHTML = 0;
                     document.getElementById("money").innerHTML = ' Large amount supported';
